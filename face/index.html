@@ -22,10 +22,16 @@
     <script src="./demo.js"></script>
 
     <link rel="stylesheet" href="./style.css" type="text/css" />
+    <script src="camera_cap.js"></script>
   </head>
   
   <body onload="main()" style='color: white'>
     <canvas width="600" height="600" id='jeeFaceFilterCanvas'></canvas>
+    <a id="capture" href="javascript:void(0);"><img src="camera-icon.png" alt=""></a>
+    <div id="capture_result">
+      <div class="capture_result_icon">画像を長押しして保存！</div>
+      <img id="capture_result_img" src="" alt="">
+    </div>
   </body>
 </html>
  
